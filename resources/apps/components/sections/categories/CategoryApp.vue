@@ -42,7 +42,7 @@ export default {
 
 	data () {
 		return {
-			categories: deepClone(this.$store.state.),
+			categories: deepClone(this.$store.state.categories),
 			modalActive: false,
 			name: null,
 			description: null,

@@ -14898,12 +14898,6 @@ b {
   color: #999999;
 }
 
-.input:-ms-input-placeholder,
-.taginput .taginput-container.is-focusable:-ms-input-placeholder,
-.textarea:-ms-input-placeholder {
-  color: #999999;
-}
-
 .input::-ms-input-placeholder,
 .taginput .taginput-container.is-focusable::-ms-input-placeholder,
 .textarea::-ms-input-placeholder {
@@ -14935,13 +14929,6 @@ b {
 .select select:focus::-webkit-input-placeholder,
 .select select:hover::-webkit-input-placeholder,
 .select select:active::-webkit-input-placeholder {
-  color: #999999;
-}
-
-.select select:-ms-input-placeholder,
-.select select:focus:-ms-input-placeholder,
-.select select:hover:-ms-input-placeholder,
-.select select:active:-ms-input-placeholder {
   color: #999999;
 }
 

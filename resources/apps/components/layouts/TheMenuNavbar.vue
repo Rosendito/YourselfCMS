@@ -27,7 +27,8 @@
 
 <script>
 // Components
-import AccountImageBase from '@/components/reusable/AccountImageBase';
+import AccountImageBase from '@/components/reusable/AccountImageBase'
+import { URL } from '@/functions/tools'
 
 export default {
 	components: {
@@ -56,13 +57,13 @@ export default {
 				return false
 
 			// Por terminar
-			return 'http://localhost:8000/img/' + this.userLogged.image
+			return URL.img + this.userLogged.image
 		}
 	},
 
 	methods: {
 		logout () {
-			window.location.replace('http://localhost:8000/admin/logout')
+			window.location.replace('')
 		}
 	}
 }

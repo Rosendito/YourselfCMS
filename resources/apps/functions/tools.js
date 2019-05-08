@@ -26,3 +26,9 @@ export function deepClone (object) {
 
 	return clone;
 }
+
+export const URL = {
+	basePath: window.location.protocol + window.location.hostname,
+	images: this.basePath + '/img',
+	api: this.basePath + '/api'
+}

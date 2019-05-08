@@ -1,4 +1,5 @@
 import Axios from 'axios';
+import { URL } from '@/functions/tools'
 
 let tokenCSRF = document.getElementById('csrf-token').getAttribute('content')
 
@@ -13,8 +14,8 @@ class Api{
 			}
 		})
 
-		this.baseUrl = 'http://localhost:8000/api/'
-		this.path    = this.baseUrl
+		this.baseUrl = URL.api
+		this.path    = this.baseUrl + '/'
 	}
 
 	getAll () {
