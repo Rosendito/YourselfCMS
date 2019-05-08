@@ -4,7 +4,7 @@ class TagService extends Api{
 	constructor () {
 		super()
 
-		this.path = this.baseUrl + 'tags/'
+		this.path = this.baseUrl + '/tags/'
 	}
 }
 

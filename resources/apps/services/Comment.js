@@ -4,7 +4,7 @@ class CommentService extends Api{
 	constructor () {
 		super()
 
-		this.path = this.baseUrl + 'comments/'
+		this.path = this.baseUrl + '/comments/'
 	}
 }
 

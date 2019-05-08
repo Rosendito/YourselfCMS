@@ -4,7 +4,7 @@ class CategoryService extends Api{
 	constructor () {
 		super()
 
-		this.path = this.baseUrl + 'categories/'
+		this.path = this.baseUrl + '/categories/'
 	}
 }
 

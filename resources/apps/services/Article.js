@@ -4,7 +4,7 @@ class ArticleService extends Api{
 	constructor () {
 		super()
 
-		this.path = this.baseUrl + 'articles/'
+		this.path = this.baseUrl + '/articles/'
 	}
 }
 

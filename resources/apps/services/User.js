@@ -4,7 +4,7 @@ class UserService extends Api{
 	constructor () {
 		super()
 
-		this.path = this.baseUrl + 'users/'
+		this.path = this.baseUrl + '/users/'
 	}
 }
 
