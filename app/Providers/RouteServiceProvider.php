@@ -55,7 +55,7 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
              ->namespace($this->namespace)
              ->group(function () {
-                $this->requireRoutes('routes\web');
+                $this->requireRoutes('routes/web');
              });
     }
 
