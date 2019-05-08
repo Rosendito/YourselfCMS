@@ -47,7 +47,7 @@ b-table.cms-articles-list-body(
 
 			.media
 				AccountImageBase.media-left(
-					:imageSrc="row.user.image ? 'http://localhost:8000/img/' + row.user.image : false"
+					:imageSrc="row.user.image ? URL.img + '/' + row.user.image : false"
 				)
 
 				.media-content
@@ -124,9 +124,17 @@ import AccountImageBase from '@/components/reusable/AccountImageBase'
 // Functions
 import { validateIfCanPublish } from '@/functions/validateArticleFields'
 
+import { URL } from '@/functions/tools'
+
 export default {
 	components: {
 		AccountImageBase,
+	},
+
+	data () {
+		return {
+			URL
+		}
 	},
 
 	props: {

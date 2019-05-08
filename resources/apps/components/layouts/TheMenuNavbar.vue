@@ -63,7 +63,7 @@ export default {
 
 	methods: {
 		logout () {
-			window.location.replace('')
+			window.location.replace(URL.logout)
 		}
 	}
 }

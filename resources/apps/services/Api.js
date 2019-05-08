@@ -1,6 +1,8 @@
 import Axios from 'axios';
 import { URL } from '@/functions/tools'
 
+console.log(URL)
+
 let tokenCSRF = document.getElementById('csrf-token').getAttribute('content')
 
 class Api{
