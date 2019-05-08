@@ -68,12 +68,12 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapApiRoutes()
     {
-        Route::prefix('adadada')
-             ->middleware('api')
-             ->namespace($this->namespace)
-             ->group(function () {
-                $this->requireRoutes('routes\api');
-             });
+        // Route::prefix('adadada')
+        //      ->middleware('api')
+        //      ->namespace($this->namespace)
+        //      ->group(function () {
+        //         $this->requireRoutes('routes\api');
+        //      });
     }
 
     /**
