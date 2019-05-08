@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/materialdesign-icons.css') }}">
 
     {{-- Admin Style --}}
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin-assets/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/style.css') }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 </head>
@@ -27,6 +27,6 @@
 
     </script>
     <script type="text/javascript" src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('admin-assets/app.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('admin/app.js') }}"></script>
 </body>
 </html>
