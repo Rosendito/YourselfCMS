@@ -1,0 +1,15 @@
+// Account Image Placeholder
+.cms-accountimage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 32px;
+	width: 32px;
+	background: $info;
+	border-radius: 50%;
+
+	.icon{
+		color: white;
+	}
+}
+

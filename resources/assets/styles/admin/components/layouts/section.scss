@@ -1,0 +1,36 @@
+// Sections
+.cms-section{
+	position: relative;
+	margin-top: $segment-padding;
+	padding: 0 $segment-padding;
+
+	.title{
+		font-weight: 400;
+		color: $dark;
+		font-size: $size-3;
+	}
+}
+
+.cms-section-subtitle{
+	padding: 0;
+	padding-left: 0.75rem;
+
+	.subtitle{
+		font-size: $size-5;
+	}
+}
+
+.cms-section-wrapper{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.cms-section-heading{
+	margin-bottom: $segment-padding;
+
+	.level{
+		display: flex;
+		align-items: center;
+	}
+}

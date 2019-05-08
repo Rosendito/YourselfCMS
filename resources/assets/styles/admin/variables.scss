@@ -1,0 +1,92 @@
+// Functions Bulma
+@import '~bulma/sass/utilities/functions.sass';
+
+// Colors Primary
+$cararra:     #eceff2;
+$pelorous:    #4ba3c3;
+$punch:       #d63230;
+$blumine:     #175676;
+$balticsea:   #0f1a20;
+$linkwater:   #cce6f4;
+$dingley:     #768946;
+$christine:   #f4790e;
+$pomegranate: #f44336;
+
+// Colors Derived
+$primary: $punch;
+$info:    $pelorous;
+$warning: $christine;
+$danger:  $pomegranate;
+$success: $dingley;
+$dark:    $balticsea;
+$light:   $linkwater;
+$link:    $blumine;
+
+// Invert Colors Derived
+$primary-invert: findColorInvert($punch);
+$info-invert:    findColorInvert($pelorous);
+$warning-invert: findColorInvert($christine);
+$danger-invert:  findColorInvert($pomegranate);
+$success-invert: findColorInvert($dingley);
+$dark-invert:    findColorInvert($balticsea);
+$light-invert:   findColorInvert($linkwater);
+$link-invert:    findColorInvert($blumine);
+
+// Generic 
+$body-background-color: $cararra;
+$hover-color: #e4f1f6;
+
+// Fonts
+$font-primary: 'Nunito', sans-serif;
+$font-secondary: 'Raleway', sans-serif;
+
+// Font Size
+$size-1: 3.5rem;
+$size-2: 2rem;
+$size-3: 1.75rem;
+$size-4: 1.25rem;
+$size-5: 1.125rem;
+$size-6: 1rem;
+$size-7: 0.9375rem;
+$size-8: 0.875rem;
+
+$font-color-light: #5f5f5f;
+$font-color-normal: #4a4a4a;
+
+// Segment padding | margin
+$segment-padding: 1.25rem;
+
+// Shadow
+$shadow-key-umbra-opacity:      0.10 !default;
+$shadow-key-penumbra-opacity:   0.07 !default;
+$shadow-ambient-shadow-opacity: 0.06 !default;
+
+$shadow-2:  0 2px 2px 0 rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+            0 3px 1px -2px rgba(0, 0, 0, $shadow-key-umbra-opacity),
+            0 1px 5px 0 rgba(0, 0, 0, $shadow-ambient-shadow-opacity);
+$shadow-3:  0 3px 4px 0 rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+            0 3px 3px -2px rgba(0, 0, 0, $shadow-key-umbra-opacity),
+            0 1px 8px 0 rgba(0, 0, 0, $shadow-ambient-shadow-opacity);
+$shadow-4:  0 4px 5px 0 rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+            0 1px 10px 0 rgba(0, 0, 0, $shadow-ambient-shadow-opacity),
+            0 2px 4px -1px rgba(0, 0, 0, $shadow-key-umbra-opacity);
+$shadow-6:  0 6px 10px 0 rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+            0 1px 18px 0 rgba(0, 0, 0, $shadow-ambient-shadow-opacity),
+            0 3px 5px -1px rgba(0, 0, 0, $shadow-key-umbra-opacity);
+$shadow-8:  0 8px 10px 1px rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+            0 3px 14px 2px rgba(0, 0, 0, $shadow-ambient-shadow-opacity),
+            0 5px 5px -3px rgba(0, 0, 0, $shadow-key-umbra-opacity);
+$shadow-16: 0 16px 24px 2px rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+            0  6px 30px 5px rgba(0, 0, 0, $shadow-ambient-shadow-opacity),
+            0  8px 10px -5px rgba(0, 0, 0, $shadow-key-umbra-opacity);
+$shadow-24: 0  9px 46px  8px rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+            0 11px 15px -7px rgba(0, 0, 0, $shadow-ambient-shadow-opacity),
+            0 24px 38px  3px rgba(0, 0, 0, $shadow-key-umbra-opacity);
+
+// Bulma - Variables
+$family-primary: $font-primary;
+
+// Input variables
+$input-border-color: hsl(0, 0%, 60%);
+$input-icon-color:   hsl(0, 0%, 60%);
+

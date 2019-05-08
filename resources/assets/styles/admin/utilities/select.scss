@@ -1,0 +1,45 @@
+// Select
+.cms-select{}
+
+.cms-select-item{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+	color: $font-color-normal;
+
+	figure {
+		margin-right: 1.25rem;
+
+		.icon{
+			margin-right: 0 !important; 
+		}
+	}
+
+	.icon{
+		margin-right: 1.25rem;
+	}
+
+	&.is-selected{
+		padding: 0.375rem 0.75rem;
+		margin: 0 -0.75rem;
+
+		figure, .icon{ margin-right: 0.5rem }
+
+		&:hover{
+			background: $hover-color;
+		}
+	}
+}
+
+.cms-select-none{
+	display: flex;
+	justify-content: center !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+
+	span{
+		display: inline-block;
+	}
+}
+
