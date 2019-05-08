@@ -17,7 +17,8 @@ class User extends Authenticatable
         'name',
         'password',
         'image',
-        'email'
+        'email',
+        'remember_token'
     ];
 
     protected $date = [
