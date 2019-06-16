@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="47" viewBox="0 0 117 47">
+  <g id="Logo" transform="translate(-134 40)">
+    <g id="Isotipo" transform="translate(56 243)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="32" height="47" transform="translate(78 -283)" fill="#fbe122"/>
+      <text id="P" transform="translate(86 -252)" fill="#fff" font-size="24" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">P</tspan></text>
+    </g>
+    <text id="Pocholin" transform="translate(178 -11)" fill="#443535" font-size="18" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="0" y="0">Pocholin</tspan></text>
+  </g>
+</svg>

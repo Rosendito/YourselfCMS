@@ -1,0 +1,31 @@
+{
+    "articles": [
+        {
+            "title": "Como un sueño se convirtió en realidad",
+            "description": "Miles de jovenes y niños no tenían la oportunidad de tener una vida escolar activa en un Insituto como el nuestro. Ahora nosotros nos dirigimos a ellos y entregamos una educación de calidad a través del mejor contenido en línea. Llegando a todos los rincones del país.",
+            "image": "img/resource-6.jpg"
+        },
+        {
+            "title": "Transformando la educación en Colombia",
+            "description": "La era digital ha llegado para quedarse. Necesitamos dar un paso adelante para mantener nuestro compromiso con los jovenes. Por eso inauguramos la plataforma digital Pocholin, donde estará al alcance de la mano todo el contenido academico",
+            "image": "img/resource-5.jpg"
+        },
+        {
+            "title": "Inicio de clases 2019 2020. Una oportunidad de cambio",
+            "description": "Los estudiantes vivirán una experiencia nunca antes vista, la oportunidad de adquirir todo el conocimiento a través de una plataforma digital. Con esto, el Instituto Pocholin llegará a todos los rincones de Colombia, aumentando oportunidades y desarrollando proximos profesionales.",
+            "image": "img/resource-2.jpg"
+        }
+    ],
+    "events": [
+        {
+            "title": "Inaugaración de la plataforma Digital Pocholin",
+            "image": "img/resource-3.jpg",
+            "day": "17 de agosto, 2019"
+        },
+        {
+            "title": "Becas y ayuda económica para nuestros estudiantes",
+            "image": "img/resource-1.jpg",
+            "day": "26 de agosto, 2019"
+        }
+    ]
+}

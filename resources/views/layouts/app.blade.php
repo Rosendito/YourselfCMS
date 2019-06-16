@@ -2,26 +2,33 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{-- CSRF Token --}}
+    <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', config('app.name', 'Laravel'))</title>
+    <title>
+        @yield('title')
+    </title>
 
     {{-- Fonts --}}
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
 
-    {{-- Style --}}
-    <link href="{{ asset('admin-assets/style.css') }}" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu:300,400,500,700" rel="stylesheet">
 
-    {{-- Self Style --}}
-    @yield('style')
+    <!-- Styles -->
+    <link href="{{ asset('css/demo-1.css') }}" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    @yield('styles')
 </head>
 <body>
+    <!-- Page Content -->
     @yield('content')
 
-    @yield('script')
+    <!-- Scripts -->
+    <script src="{{ asset('js/demo-1.js') }}"></script>
+
+    <!-- Custom Scripts -->
+    @yield('scripts')
 </body>
 </html>
