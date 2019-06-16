@@ -29,7 +29,7 @@
             <a class="header-menu-mobile button-menu has-icon">
                 <span>Menú</span>
                 <i class="icon">
-                    <img src="{{ asset('icons/menu.svg') }}" alt="">
+                    <img src="{{ asset('iconos/menu.svg') }}" alt="">
                 </i>
             </a>
         </div>
@@ -42,7 +42,7 @@
                 <a href="" class="header-menu-item">
                     <span>Oferta Académica</span>
                     <i class="icon">
-                        <img src="{{ asset('icons/keyboard_arrow.svg') }}" alt="">
+                        <img src="{{ asset('iconos/keyboard_arrow.svg') }}" alt="">
                     </i>
                 </a>
                 <a href="" class="header-menu-item">
@@ -68,7 +68,7 @@
                 </a>
                 <a href="" class="button-menu">
                     <i class="icon">
-                        <img src="{{ asset('icons/search.svg') }}" alt="">
+                        <img src="{{ asset('iconos/search.svg') }}" alt="">
                     </i>
                 </a>
             </nav>

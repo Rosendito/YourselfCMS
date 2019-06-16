@@ -10,7 +10,7 @@
                 <a class="button-to is-text-first">
                     <span>Más noticias</span>
                     <i class="icon is-right">
-                        <img src="{{ asset('icons/arrow.svg') }}" alt="">
+                        <img src="{{ asset('iconos/arrow.svg') }}" alt="">
                     </i>
                 </a>
             </div>
@@ -45,11 +45,11 @@
         </div>
 
         <div class="button-fixed is-hidden is-show-mobile">
-            <a class="button-to">
-                <i class="icon is-right">
-                    <img src="{{ asset('icons/arrow.svg') }}" alt="">
-                </i>
+            <a class="button-to is-text-first">
                 <span>Más noticias</span>
+                <i class="icon is-right">
+                    <img src="{{ asset('iconos/arrow.svg') }}" alt="">
+                </i>
             </a>
         </div>
     </div>

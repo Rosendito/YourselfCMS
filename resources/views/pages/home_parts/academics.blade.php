@@ -16,11 +16,11 @@
                         </div>
                         <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will giveyou a complete account of the system, and expound the actual teachings.</p>
                         <div class="button-fixed">
-                            <a class="button-to is-color">
-                                <i class="icon is-right">
-                                    <img src="{{ asset('icons/arrow.svg') }}" alt="">
-                                </i>
+                            <a class="button-to is-text-first">
                                 <span>Conoce más</span>
+                                <i class="icon is-right">
+                                    <img src="{{ asset('iconos/arrow.svg') }}" alt="">
+                                </i>
                             </a>
                         </div>
                     </div>
@@ -35,11 +35,11 @@
                         </div>
                         <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will giveyou a complete account of the system, and expound the actual teachings.</p>
                         <div class="button-fixed">
-                            <a class="button-to is-color">
-                                <i class="icon is-right">
-                                    <img src="{{ asset('icons/arrow.svg') }}" alt="">
-                                </i>
+                            <a class="button-to is-text-first">
                                 <span>Conoce más</span>
+                                <i class="icon is-right">
+                                    <img src="{{ asset('iconos/arrow.svg') }}" alt="">
+                                </i>
                             </a>
                         </div>
                     </div>

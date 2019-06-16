@@ -34,16 +34,16 @@
             <div class="footer-column">
                 <div class="footer-row is-icon">
                     <i class="icon">
-                        <img src="{{ asset('icons/facebook.svg') }}" alt="">
+                        <img src="{{ asset('iconos/facebook.svg') }}" alt="">
                     </i>
                     <i class="icon">
-                        <img src="{{ asset('icons/twitter.svg') }}" alt="">
+                        <img src="{{ asset('iconos/twitter.svg') }}" alt="">
                     </i>
                     <i class="icon">
-                        <img src="{{ asset('icons/youtube.svg') }}" alt="">
+                        <img src="{{ asset('iconos/youtube.svg') }}" alt="">
                     </i>
                     <i class="icon">
-                        <img src="{{ asset('icons/instagram.svg') }}" alt="">
+                        <img src="{{ asset('iconos/instagram.svg') }}" alt="">
                     </i>
                 </div>
 

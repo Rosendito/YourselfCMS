@@ -11,7 +11,7 @@
             <div class="button-fixed">
                 <a href="" class="button-to is-negative">
                     <i class="icon">
-                        <img src="{{ asset('icons/arrow.svg') }}" alt="">
+                        <img src="{{ asset('iconos/arrow.svg') }}" alt="">
                     </i>
                     <span>oferta académica</span>
                 </a>
