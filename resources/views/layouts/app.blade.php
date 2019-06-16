@@ -13,7 +13,7 @@
 
     {{-- Fonts --}}
 
-    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/demo-1.css') }}" rel="stylesheet">
