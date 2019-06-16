@@ -14,7 +14,7 @@
                         <div class="title">
                             Párvulos, Pre-jardín y Jardín
                         </div>
-                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will giveyou a complete account of the system, and expound the actual teachings.</p>
+                        <p>Dirijida a los mas pequeños de la casa, la oportunidad para comenzar desde 0 con nuestro modelo de estudio</p>
                         <div class="button-fixed">
                             <a class="button-to is-text-first">
                                 <span>Conoce más</span>
@@ -31,9 +31,9 @@
                 <div class="card has-shadow is-no-pointer">
                     <div class="card-content is-centered">
                         <div class="title">
-                            Transición y primaria
+                            Educación Online.
                         </div>
-                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will giveyou a complete account of the system, and expound the actual teachings.</p>
+                        <p>Dirijida aquellos estudiantes que por motivos personales no pueden asistir a nuestras instituciones físicas y son amantes del aprendizaje en linea</p>
                         <div class="button-fixed">
                             <a class="button-to is-text-first">
                                 <span>Conoce más</span>
