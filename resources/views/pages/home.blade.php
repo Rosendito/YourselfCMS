@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Inicio - Pocholin')
+
 @section('styles')
 
     <style>
