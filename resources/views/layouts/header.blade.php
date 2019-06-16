@@ -24,7 +24,7 @@
                 <img src="{{ asset('img/Logo.svg') }}">
             </div>
     
-            <a href="" class="button-especial">Ingreso Intranet</a>
+            <a href="" class="button-especial is-hidden-touch">Intranet</a>
 
             <a class="header-menu-mobile button-menu has-icon">
                 <span>Menú</span>
