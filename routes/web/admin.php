@@ -16,7 +16,7 @@ function __multipleRoutes($routes, $controller)
 	}
 }
 
-Route::middleware('auth')->prefix('/admin')->group(function () {
+Route::middleware('auth')->prefix('/cms')->group(function () {
 	__multipleRoutes([
 		'/',
 		'/escritorio',
