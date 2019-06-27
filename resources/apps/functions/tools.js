@@ -33,5 +33,5 @@ const basePath = window.location.origin
 export const URL = {
 	images: basePath + '/img',
 	api: basePath + '/api',
-	logout: basePath + '/admin/logout'
+	logout: basePath + '/cms/logout'
 }

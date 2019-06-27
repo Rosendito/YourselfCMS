@@ -28,22 +28,22 @@ import ArticleEdit from '@/components/sections/articles/ArticleEdit'
 
 const articlesRoutes = [
 	{
-		path: '/admin/articulos',
+		path: '/cms/articulos',
 		name: 'article',
 		component: ArticleApp,
 	},
 	{
-		path: '/admin/articulos/crear',
+		path: '/cms/articulos/crear',
 		name: 'article/create',
 		component: ArticleCreate,
 	},
 	{
-		path: '/admin/articulos/:id/detalles',
+		path: '/cms/articulos/:id/detalles',
 		name: 'article/detail',
 		component: ArticleDetail,
 	},,
 	{
-		path: '/admin/articulos/:id/editar',
+		path: '/cms/articulos/:id/editar',
 		name: 'article/edit',
 		component: ArticleEdit,
 	},
