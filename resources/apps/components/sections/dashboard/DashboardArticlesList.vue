@@ -16,7 +16,7 @@
 			:key="article.id"
 		)
 			.cms-dashboard-articles-column
-				AccountImageBase(:imageSrc="article.user.image ? 'http://localhost:8000/img/' + article.user.image : false")
+				AccountImageBase(:imageSrc="article.user.image ? URL.images + article.user.image : false")
 
 			.cms-dashboard-articles-column
 				b {{ article.title }}
@@ -63,6 +63,8 @@
 import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 import AccountImageBase from '@/components/reusable/AccountImageBase'
 
+import { URL } from '@/functions/tools'
+
 export default {
 	props: {
 		data: {
@@ -79,6 +81,7 @@ export default {
 		return {
 			articles: this.data.articles,
 			title: this.data.title,
+			URL
 		}
 	},
 

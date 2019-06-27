@@ -13,3 +13,10 @@
 	}
 }
 
+.image.is-32x32 img{
+	display: block;
+	width: 32px;
+	height: 32px;
+	object-fit: cover;
+	object-position: center;
+}

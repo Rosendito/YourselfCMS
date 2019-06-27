@@ -47,7 +47,7 @@ b-table.cms-articles-list-body(
 
 			.media
 				AccountImageBase.media-left(
-					:imageSrc="row.user.image ? URL.images + '/' + row.user.image : false"
+					:imageSrc="row.user.image ? URL.images + row.user.image : false"
 				)
 
 				.media-content

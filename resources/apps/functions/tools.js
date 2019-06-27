@@ -31,7 +31,7 @@ export function deepClone (object) {
 const basePath = window.location.origin
 
 export const URL = {
-	images: basePath + '/img',
+	images: basePath + '/img/',
 	api: basePath + '/api',
 	logout: basePath + '/cms/logout'
 }
