@@ -14,20 +14,8 @@ class UsersTableSeeder extends Seeder
     {
         User::create([
         	'name'     => 'José Rosendo',
-        	'email'    => 'rosendito@up.tech',
-        	'password' => bcrypt('contraseña'),
-        ]);
-
-        User::create([
-        	'name'     => 'Sandro Casteñeda',
-        	'email'    => 'sandrito@up.tech',
-        	'password' => bcrypt('contraseña'),
-            'image'    => 'sandro.jpg',
-        ]);
-
-        User::create([
-        	'name'     => 'Gabriel Moreno',
-        	'email'    => 'morenito@up.tech',
+            'email'    => 'rosendito@up.tech',
+            'image'    => 'rosendo.jpg',
         	'password' => bcrypt('contraseña'),
         ]);
 
