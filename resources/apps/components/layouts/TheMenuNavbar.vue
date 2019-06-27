@@ -57,7 +57,7 @@ export default {
 				return false
 
 			// Por terminar
-			return URL.img + this.userLogged.image
+			return URL.images + this.userLogged.image
 		}
 	},
 

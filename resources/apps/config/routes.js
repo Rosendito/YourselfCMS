@@ -3,7 +3,7 @@ import ExampleTemplateApp from '@/components/examples/TemplateApp'
 
 const examplesRoutes = [
 	{
-		path: '/admin/examples/template',
+		path: '/cms/examples/template',
 		name: 'example/template',
 		component: ExampleTemplateApp,
 	}
@@ -14,7 +14,7 @@ import DashboardApp from '@/components/sections/dashboard/DashboardApp'
 
 const dashboardRoutes = [
 	{
-		path: '/admin/escritorio',
+		path: '/cms/escritorio',
 		name: 'dashboard',
 		component: DashboardApp,
 	}
@@ -54,7 +54,7 @@ import CategoryApp from '@/components/sections/categories/CategoryApp'
 
 const categoriesRoutes = [
 	{
-		path: '/admin/categorias',
+		path: '/cms/categorias',
 		name: 'category',
 		component: CategoryApp,
 	}
@@ -65,7 +65,7 @@ import TagApp from '@/components/sections/tags/TagApp'
 
 const tagsRoutes = [
 	{
-		path: '/admin/etiquetas',
+		path: '/cms/etiquetas',
 		name: 'tag',
 		component: TagApp,
 	}
@@ -76,7 +76,7 @@ import UserApp from '@/components/sections/users/UserApp'
 
 const usersRoutes = [
 	{
-		path: '/admin/usuarios',
+		path: '/cms/usuarios',
 		name: 'user',
 		component: UserApp,
 	}
@@ -85,7 +85,7 @@ const usersRoutes = [
 // Base
 const base = [
 	{
-		path: '/admin',
+		path: '/cms',
 		redirect: { name: 'dashboard' }
 	}
 ]
