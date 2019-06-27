@@ -12,15 +12,28 @@ class ArticlesTableSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        factory(Article::class, 15)
-        	->create()
-        	->each(function ($post) {
-        		$tags = Tag::all()
-        			->random(mt_rand(1,3))
-        			->pluck('id');
+    {        
+        $json = File::get(public_path('data.json'));
+        $data = json_decode($json);
+        $articles = $data->articles;
+    
+        foreach ($articles as $item) {
+            $article = Article::create([
+                'title'       => $item->title,
+                'slug'        => str_slug($item->title),
+                'body'        => 'Cuerpo',
+                'description' => $item->description,
+                'image'       => $item->image,
+                'status'      => Article::PUBLISHED,
+                'user_id'     => 1,
+                'category_id' => 1,
+            ]);
 
-        		$post->tags()->attach($tags);
-        	});
+            $tags = Tag::all()
+        		->random(mt_rand(1,3))
+        		->pluck('id');
+
+        	$article->tags()->attach($tags);
+        }
     }
 }
