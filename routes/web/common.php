@@ -15,3 +15,4 @@
 //     return view('layouts.app');
 // });
 
+Route::get('/pruebas/examen', 'Test\CommonController@examen');
