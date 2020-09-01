@@ -21,7 +21,7 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "buefy": "^0.6.6",
+        "buefy": "^1.0.0",
         "bulma-steps-component": "^0.5.3",
         "vue-moment": "^4.0.0",
         "vue-perfect-scrollbar": "^0.1.0",
